@@ -1,0 +1,11 @@
+{
+  "name": "clawrouter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "clawrouter setup --yes && clawrouter --port ${PORT:-8080}"
+  },
+  "dependencies": {
+    "@blockrun/clawrouter": "^0.12.249"
+  }
+}
