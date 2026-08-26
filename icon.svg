@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="48" fill="url(#grad1)"/>
+  <g fill="none" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Central node -->
+    <circle cx="128" cy="128" r="18" fill="white"/>
+    <!-- Branching paths -->
+    <path d="M128 110 L128 60"/>
+    <path d="M128 146 L128 196"/>
+    <path d="M110 128 L60 128"/>
+    <path d="M146 128 L196 128"/>
+    <!-- Diagonal branches -->
+    <path d="M116 116 L80 80"/>
+    <path d="M140 116 L176 80"/>
+    <path d="M116 140 L80 176"/>
+    <path d="M140 140 L176 176"/>
+    <!-- Endpoint nodes -->
+    <circle cx="128" cy="50" r="8" fill="white"/>
+    <circle cx="128" cy="206" r="8" fill="white"/>
+    <circle cx="50" cy="128" r="8" fill="white"/>
+    <circle cx="206" cy="128" r="8" fill="white"/>
+    <circle cx="72" cy="72" r="6" fill="white"/>
+    <circle cx="184" cy="72" r="6" fill="white"/>
+    <circle cx="72" cy="184" r="6" fill="white"/>
+    <circle cx="184" cy="184" r="6" fill="white"/>
+  </g>
+</svg>
