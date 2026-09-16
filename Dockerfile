@@ -1,5 +1,5 @@
 # CACHEBUST: 2026-08-26T09:10
-FROM node:22-slim
+FROM node:26-slim
 
 RUN apt-get update && apt-get install -y socat curl && rm -rf /var/lib/apt/lists/*
 
